@@ -1,0 +1,38 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to bottom right, blue, pink);
+    padding: 20px;
+    height: 100vh;
+    color: aliceblue;
+      
+}
+
+.inner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.heading{
+    text-align: center;
+    
+}
+
+.info-container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    
+}
+
+.info-para{
+    font-size: 30px;
+}
